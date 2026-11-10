@@ -1,7 +1,7 @@
-import '../lib/conexao.dart';
+import 'package:meu_app/conexao.dart';
 
 //Registrar informações no banco de dados
-main() async{
+Future<void> main() async{
   //Conexao 
   final supabase = conexao();
 

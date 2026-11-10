@@ -1,4 +1,4 @@
-import '../lib/conexao.dart';
+import 'package:meu_app/conexao.dart';
 void main() {
 
   final supabase = conexao();
